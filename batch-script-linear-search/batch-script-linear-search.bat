@@ -26,6 +26,6 @@ FOR %%s IN (%arg1%) DO (
 )
 
 REM // If not found, print not found
-IF %found%==0 (
+IF %found%==1 (
 	@ECHO "Not found for : %arg2%, Total : %count%"
 )
